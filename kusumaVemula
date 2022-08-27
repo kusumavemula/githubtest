@@ -1,0 +1,7 @@
+  Assignment 1, Date:08/25/2022
+Q:Difference between ZRS and GZRS? 
+A: ZRS:Zone redundancy storage
+   data stored as 3 replica in available datacenters under one region.
+   GZRS:Geo zone redundancy storage
+   data stored as 3 replica in available datacenters just like ZRS & also available in secondary region and will be accessible only if primary region fails.
+   To access the secondary region we have to use RA-GZRS[read access-geo zone redundancy storage].
